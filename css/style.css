@@ -1,5 +1,26 @@
 body {
     margin: 0;
-    background-image: url(/img/bg.jpg);
+    background: url(/img/bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.left-side {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    opacity: 1;
+    display: flex;
+    font-size: 64px;
+    text-align: center;
+}
+
+.right-side {
+    background-color: rgb(235, 235, 235);
+}
+
+.first-third {
+    font-size: 32px;
 }
