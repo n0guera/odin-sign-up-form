@@ -14,24 +14,52 @@ body {
 }
 
 .left-side {
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 40vw;
 }
 
 .logo {
-    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    align-items: center;
+}
+
+.logo-img img{
+    width: 8rem;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo-text {
     font-family: Norse-Bold, sans-serif;
-    font-size: 64px;
+    font-size: 8rem;
     text-align: center;
+    color: white;
+}
+
+.logo-text p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .right-side {
-    background-color: rgb(235, 235, 235);
     display: flex;
     flex-direction: column;
+    width: 60vw;
+    height: auto;
 }
 
-.first-third {
-    font-size: 32px;
-    width: 65vw;
+.first-part {
+    background-color: rgb(240, 240, 240);
+    font-size: 2rem;
+}
+
+.second-part {
+    background-color: white;
+}
+
+.third-part {
+    background-color: rgb(240, 240, 240);
 }
