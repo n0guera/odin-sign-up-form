@@ -4,6 +4,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../font/Norse-Bold.otf);
 }
 
 .left-side {
@@ -13,14 +20,18 @@ body {
 .logo {
     opacity: 1;
     display: flex;
+    font-family: Norse-Bold, sans-serif;
     font-size: 64px;
     text-align: center;
 }
 
 .right-side {
     background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
 }
 
 .first-third {
     font-size: 32px;
+    width: 65vw;
 }
