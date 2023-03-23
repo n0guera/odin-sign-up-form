@@ -51,7 +51,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.first-part {
+.first-container {
     background-color: rgb(240, 240, 240);
     font-size: 1.5rem;
     font-weight: bold;
@@ -60,12 +60,12 @@ body {
     padding-bottom: 5.5vh;
 }
 
-.second-part {
+.second-container {
     background-color: white;
     padding-left: 2.5vw;
 }
 
-.third-part {
+.third-container {
     background-color: rgb(240, 240, 240);
     padding-left: 2.5vw;
 }
