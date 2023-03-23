@@ -5,7 +5,6 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 @font-face {
@@ -26,7 +25,7 @@ body {
 }
 
 .logo-img img{
-    width: 8rem;
+    width: 6rem;
     height: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -34,7 +33,7 @@ body {
 
 .logo-text {
     font-family: Norse-Bold, sans-serif;
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: center;
     color: white;
 }
@@ -49,17 +48,24 @@ body {
     flex-direction: column;
     width: 60vw;
     height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .first-part {
     background-color: rgb(240, 240, 240);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 2.5rem;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
 }
 
 .second-part {
     background-color: white;
+    padding-left: 2.5rem;
 }
 
 .third-part {
     background-color: rgb(240, 240, 240);
+    padding-left: 2.5rem;
 }
