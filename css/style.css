@@ -13,7 +13,7 @@ body {
 }
 
 .left-side {
-    width: 40vw;
+    width: 35vw;
 }
 
 .logo {
@@ -46,7 +46,7 @@ body {
 .right-side {
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 65vw;
     height: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -55,17 +55,17 @@ body {
     background-color: rgb(240, 240, 240);
     font-size: 1.5rem;
     font-weight: bold;
-    padding-left: 2.5rem;
-    padding-top: 8rem;
-    padding-bottom: 2rem;
+    padding-left: 2.5vw;
+    padding-top: 12vh;
+    padding-bottom: 5.5vh;
 }
 
 .second-part {
     background-color: white;
-    padding-left: 2.5rem;
+    padding-left: 2.5vw;
 }
 
 .third-part {
     background-color: rgb(240, 240, 240);
-    padding-left: 2.5rem;
+    padding-left: 2.5vw;
 }
