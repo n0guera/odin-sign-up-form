@@ -76,18 +76,18 @@ body {
     margin-bottom: 2px;
 }
 
-input:focus {
-    outline: 0;
-    border: 1px solid #ff008d;
-    box-shadow: 2px 2px 6px grey;
-}
-
 input {
     height: 1.5rem;
     border-radius: 6px;
     border: 1px solid grey;
     margin-bottom: 32px;
     margin-right: 64px;
+}
+
+input:focus {
+    outline: 0;
+    border: 1px solid #ff008d;
+    box-shadow: 2px 2px 6px grey;
 }
 
 button[type="submit"] {
@@ -107,7 +107,7 @@ button[type="submit"] {
     background-color: rgb(240, 240, 240);
     padding-left: 2.5vw;
     padding-top: 80px;
-    height: 25vh;
+    height: 23.5vh;
 }
 
 .third-container a {

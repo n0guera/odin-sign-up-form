@@ -27,7 +27,7 @@
         <div class="second-container">
             <h1>Let's do this!</h1>
 
-            <form action="" method="post">
+            <form action="" method="post" id="my-form">
                 <div class="fieldset-container">
                     <div class="fieldset">
                         <label for="first-name">FIRST NAME</label>
@@ -51,11 +51,11 @@
                 <div class="fieldset-container">
                     <div class="fieldset">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="5" required autocomplete="off">
+                        <input type="password" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="5" placeholder="Min 5 letters and 1 uppercase" onchange="validateForm()" required autocomplete="off">
                     </div>
                     <div class="fieldset">
                         <label for="repeat-password">REPEAT PASSWORD</label>
-                        <input type="password" id="repeat-password" name="repeatPassword" required autocomplete="off">
+                        <input type="password" id="repeat-password" name="repeatPassword" onchange="validateForm()" required autocomplete="off">
                     </div>
                 </div>
 
