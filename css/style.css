@@ -60,10 +60,6 @@ body {
     padding-bottom: 5.5vh;
 }
 
-/* .first-container p {
-    color: white;
-} */
-
 .second-container {
     background-color: white;
     padding-left: 2.5vw;
@@ -97,18 +93,22 @@ input {
 button[type="submit"] {
     position: absolute;
     margin-top: 32px;
+    color: white;
+    background-color: #ff008d;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px grey;
 }
 
 .third-container {
     background-color: rgb(240, 240, 240);
     padding-left: 2.5vw;
-    padding-top: 64px;
-    height: 25.73vh;
+    padding-top: 80px;
+    height: 25vh;
 }
-
-/* .third-container p {
-    color: white;
-} */
 
 .third-container a {
     text-decoration: none;
