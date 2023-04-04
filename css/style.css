@@ -44,6 +44,19 @@ body, html {
     margin-bottom: 1rem;
 }
 
+.credits {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55vh;
+    color: white;
+}
+
+.credits a {
+    color: #ff008d;
+}
+
 .right-side {
     display: flex;
     flex-direction: column;
